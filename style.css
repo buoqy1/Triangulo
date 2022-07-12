@@ -14,7 +14,9 @@ a{
     text-decoration: none;
 }
 /* nav*/
-
+.logocontainer--responsive, .nav--responsive{
+    display: none;
+}
 .navcontainer > li{
     position:relative;
     display:inline-block;
