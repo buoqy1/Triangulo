@@ -21,9 +21,7 @@ a{
     position:relative;
     display:inline-block;
 }
-.navcontainer{
-    
-}
+
 .navcontainer li a:hover{
     color: #724722;
     transition: all 0.5s;
@@ -153,4 +151,46 @@ td{
     font-size: 20px;
     padding: 10px;
     margin: 5px;
+}
+
+
+
+
+
+
+
+@media  only screen and  (max-width: 600px){
+    .logocontainer, .nav, .titlecontainer, .img, .container, .container__menu-2, .container__min, .tabla__container, footer{ 
+        display: none;
+    }
+    *{
+        font-size: 35px;
+    }
+    .logocontainer--responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .name--responsive{
+        text-align: center;
+        padding: 6px;
+        margin: 11px 0px;
+    }
+    .name-2--responsive{
+        font-size: 35px;
+        padding: 10px;
+        margin-top: -19px;
+    }
+    .nav--responsive{
+        position: absolute;
+        right: 0;
+    }
+    .navcontainer--responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
